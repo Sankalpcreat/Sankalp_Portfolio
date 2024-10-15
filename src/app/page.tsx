@@ -39,39 +39,39 @@ function Navbar({ className }: { className?: string }) {
 
   return (
     <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}>
-      <div className="bg-gradient-to-r  text-white rounded-lg p-2 shadow-lg">
+      <div className="bg-gradient-to-r  text-white font-semibold rounded-lg p-2 shadow-lg">
         <Menu setActive={setActive}>
           <MenuItem setActive={setActive} active={active} item="Home">
             <div className="flex flex-col space-y-4 text-sm">
-              <a href="#home" className="text-blue-500 transition-all">
+              <a href="#home" className="text-white transition-all">
                 Home Section
               </a>
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Projects">
             <div className="flex flex-col space-y-4 text-sm">
-              <a href="#projects" className="text-blue-500 transition-all">
+              <a href="#projects" className="text-white transition-all">
                 Projects Section
               </a>
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Skills">
             <div className="flex flex-col space-y-4 text-sm">
-              <a href="#skills" className="text-blue-500 transition-all">
+              <a href="#skills" className="text-white transition-all">
                 Skills Section
               </a>
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Experience">
             <div className="flex flex-col space-y-4 text-sm">
-              <a href="#experience" className="text-blue-500 transition-all">
+              <a href="#experience" className="text-white transition-all">
                 Experience Section
               </a>
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Contact">
             <div className="flex flex-col space-y-4 text-sm">
-              <a href="#contact" className="text-blue-500 transition-all">
+              <a href="#contact" className="text-white transition-all">
                 Contact Section
               </a>
             </div>
