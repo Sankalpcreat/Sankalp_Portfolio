@@ -20,6 +20,18 @@ export function CardHoverEffectDemo() {
 
 export const projects = [
   {
+    title: "AmplifyXLabs (Jan 2025 - Present)",
+    description:
+      "SDE: Built AI web apps (Node/Next.js/Python), automated DMs, and video tools. Improved performance and collaborated remotely.",
+    link: "https://xautodm.com", // Example link
+  },
+  {
+    title: "SmartCard AI (Nov 2024 - Jan 2025)",
+    description:
+      "AI Intern: Developed Windows app with Python/Flask, worked with LLMs, optimized performance, and enabled app-web sync.",
+    link: "#", // No public link
+  },
+  {
     title: "QED42 (June-2023 July-2023)",
     description:
       "Worked as a Software Intern at QED42, gaining experience in full-stack web development and collaborating with a dynamic team to deliver impactful solutions.",
